@@ -12,7 +12,7 @@ export const dataSeptember = [
       "id": 2,
       "day": "Miercoles",
       "course": "Analisis y Diseño de Sistemas II",
-      "hour":"7:45PM-10:44PM",
+      "hour":"2:30PM-5:30PM",
       "type":"Teoria",
       "salon":"B105",
       "lugar":"Borgoño"
@@ -21,7 +21,7 @@ export const dataSeptember = [
       "id": 3,
       "day": "Jueves",
       "course": "Analisis y Diseño de Sistemas II",
-      "hour":"7:45PM-10:44PM",
+      "hour":"2:30PM-5:30PM",
       "type":"Laboratorio",
       "salon":"D113",
       "lugar":"Daniel Hoyle"

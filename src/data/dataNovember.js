@@ -28,9 +28,18 @@ export const dataNovember = [
   },
   {
     "id": 4,
-    "day": "Domingo",
+    "day": "Viernes",
     "course": "Base de Datos Avanzado II",
-    "hour":"7:00AM-11:30PM",
+    "hour":"5:30PM-7:00PM",
+    "type":"Laboratorio",
+    "salon":"NA",
+    "lugar":"NA"
+  },
+  {
+    "id": 5,
+    "day": "Sabado",
+    "course": "Base de Datos Avanzado II",
+    "hour":"4:00PM-7:00PM",
     "type":"Laboratorio",
     "salon":"NA",
     "lugar":"NA"
