@@ -2,7 +2,7 @@ export const dataNovember = [
   {
     "id": 1,
     "day": "Lunes",
-    "course": "Comunicacion",
+    "course": "Des.Habilidades Profesionales IV",
     "hour":"11:30AM-1:00PM",
     "type":"Virtual",
     "salon":"Virtual",
@@ -32,8 +32,8 @@ export const dataNovember = [
     "course": "Base de Datos Avanzado II",
     "hour":"5:30PM-7:00PM",
     "type":"Laboratorio",
-    "salon":"NA",
-    "lugar":"NA"
+    "salon":"Virtual",
+    "lugar":"Virtual"
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@ export const dataNovember = [
     "course": "Base de Datos Avanzado II",
     "hour":"4:00PM-7:00PM",
     "type":"Laboratorio",
-    "salon":"NA",
-    "lugar":"NA"
+    "salon":"Virtual",
+    "lugar":"Virtual"
   }
 ];
 
