@@ -1,48 +1,48 @@
 export const dataNovember = [
   {
     "id": 1,
-    "day": "Lunes",
-    "course": "Des.Habilidades Profesionales IV",
-    "hour":"11:30AM-1:00PM",
-    "type":"Virtual",
-    "salon":"Virtual",
-    "lugar":"Virtual"
+    "day": "Martes",
+    "course": "Experiencias Formativas IV",
+    "hour": "1:30-3:00",
+    "type": "Virtual",
+    "salon": "Virtual",
+    "lugar": "Virtual"
   },
   {
     "id": 2,
     "day": "Martes",
-    "course": "Programacion Orientada a Objetos II",
-    "hour":"2:30PM-7:00PM",
-    "type":"Laboratorio",
-    "salon":"D133",
-    "lugar":"Daniel Hoyle"
+    "course": "Desarrollo de Aplicaciones Mobiles I",
+    "hour": "19:00-21:15",
+    "type": "Laboratorio",
+    "salon": "D112",
+    "lugar": "Daniel Hoyle"
   },
   {
     "id": 3,
-    "day": "Jueves",
-    "course": "Gestion de Servicios de TI",
-    "hour":"7:45PM-10:44PM",
-    "type":"Virtual",
-    "salon":"Virtual",
-    "lugar":"Virtual"
+    "day": "Miercoles",
+    "course": "Seguridad de Aplicaciones",
+    "hour": ":14:30-17:30",
+    "type": "Virtual",
+    "salon": "Virtual",
+    "lugar": "Virtual"
   },
   {
     "id": 4,
-    "day": "Viernes",
-    "course": "Base de Datos Avanzado II",
-    "hour":"5:30PM-7:00PM",
-    "type":"Laboratorio",
-    "salon":"Virtual",
-    "lugar":"Virtual"
+    "day": "Jueves",
+    "course": "Inovacion y Emprendimiento",
+    "hour": "19:00-22:00",
+    "type": "Virtual",
+    "salon": "Virtual",
+    "lugar": "Virtual"
   },
   {
     "id": 5,
-    "day": "Sabado",
-    "course": "Base de Datos Avanzado II",
-    "hour":"4:00PM-7:00PM",
-    "type":"Laboratorio",
-    "salon":"Virtual",
-    "lugar":"Virtual"
+    "day": "Viernes",
+    "course": "Desarrollo de Aplicaciones Mobiles I",
+    "hour": "19:00-21:15",
+    "type": "Laboratorio",
+    "salon": "D112",
+    "lugar": "Daniel Hoyle"
   }
 ];
 
