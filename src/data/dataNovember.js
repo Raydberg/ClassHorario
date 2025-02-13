@@ -21,7 +21,7 @@ export const dataNovember = [
     "id": 3,
     "day": "Miercoles",
     "course": "Seguridad de Aplicaciones",
-    "hour": ":14:30-17:30",
+    "hour": "14:30-17:30",
     "type": "Virtual",
     "salon": "Virtual",
     "lugar": "Virtual"
