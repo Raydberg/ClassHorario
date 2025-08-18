@@ -29,7 +29,7 @@ export const dataNovember = [
   {
     "id": 3,
     "day": "Sabado",
-    "course": "Proyecto Integrados",
+    "course": "Proyecto Integrador",
     "hour": "19:45-22:44",
     "type": "Virtual",
     "salon": "Virtual",
