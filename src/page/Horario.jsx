@@ -21,10 +21,10 @@ export const Horario = () => {
     <div className="flex flex-col justify-center items-center dark:bg-gray-900 dark:text-white">
       <Header title="Mi Horario" themeToggle={<ThemeToggle />} currentDate={currentDate} />
       <div className="flex flex-col">
-        <SubTitle title="24 de Marzo - 18 de Mayo" />
+        <SubTitle title="15 de Septiembre - 02 de Noviembre" />
         <TableSeptember />
         <hr className="dark:border-gray-700" />
-        <SubTitle title="19 de Mayo - 13 de Julio" />
+        <SubTitle title="10 de Noviembre - 28 de Diciembre" />
         <TableNovember />
       </div>
     </div>
