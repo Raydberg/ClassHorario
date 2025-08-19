@@ -1,12 +1,12 @@
 export const dataSeptember = [
   {
     "id": 1,
-    "day": "Domingo",
-    "course": "Plan de Negocios",
-    "hour": "00:00-01:30",
-    "type": "Virtual",
-    "salon": "Virtual",
-    "lugar": "Virtual"
+    "day": "Jueves",
+    "course": "Desarrollo de Aplicaciones Web II",
+    "hour": "19:00-21:14 ",
+    "type": "Laboratorio",
+    "salon": "B210",
+    "lugar": "Borgoño"
   },
   {
     "id": 2,
@@ -17,31 +17,40 @@ export const dataSeptember = [
     "salon": "Virtual",
     "lugar": "Virtual"
   },
-  // {
-  //   "id": 3,
-  //   "day": "Miercoles",
-  //   "course": "Desarrollo de Servicios Web I",
-  //   "hour": "14:30-16:45",
-  //   "type": "Laboratorio",
-  //   "salon": "B301",
-  //   "lugar": "Borgoño"
-  // },
-  // {
-  //   "id": 4,
-  //   "day": "Jueves",
-  //   "course": "Gestion de TI",
-  //   "hour": "14:30-17:30",
-  //   "type": "Virtual",
-  //   "salon": "Virtual",
-  //   "lugar": "Virtual"
-  // },
-  // {
-  //   "id": 5,
-  //   "day": "Viernes",
-  //   "course": "Desarrollo de Servicios Web I",
-  //   "hour": "14:30-16:45",
-  //   "type": "Laboratorio",
-  //   "salon": "B301",
-  //   "lugar": "Borgoño"
-  // },
+  {
+    "id": 3,
+    "day": "Sabado",
+    "course": "Desarrollo de Servicios Web II",
+    "hour": "18:15-20:30",
+    "type": "Laboratorio",
+    "salon": "B104",
+    "lugar": "Borgoño"
+  },
+  {
+    "id": 4,
+    "day": "Domingo",
+    "course": "Desarrollo de Aplicaciones Web II",
+    "hour": "7:00-09:14",
+    "type": "Laboratorio",
+    "salon": "B210",
+    "lugar": "Borgoño"
+  },
+  {
+    "id": 5,
+    "day": "Domingo",
+    "course": "Desarrollo de Servicios Web II",
+    "hour": "10:00-12:14",
+    "type": "Laboratorio",
+    "salon": "B104",
+    "lugar": "Borgoño"
+  },
+  {
+    "id": 6,
+    "day": "Domingo",
+    "course": "Plan de Negocios",
+    "hour": "00:00-01:30",
+    "type": "Virtual",
+    "salon": "Virtual",
+    "lugar": "Virtual"
+  }
 ];
