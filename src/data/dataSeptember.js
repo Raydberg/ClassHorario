@@ -48,7 +48,7 @@ export const dataSeptember = [
     "id": 6,
     "day": "Domingo",
     "course": "Plan de Negocios",
-    "hour": "00:00-01:30",
+    "hour": "00:00-01:30PM",
     "type": "Virtual",
     "salon": "Virtual",
     "lugar": "Virtual"
