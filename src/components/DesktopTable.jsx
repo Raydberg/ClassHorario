@@ -1,31 +1,35 @@
 import { PropTypes } from 'prop-types';
+import { flexRender } from '@tanstack/react-table';
 
 export const DesktopTable = ({ table }) => (
-  <div className="hidden md:block">
-    <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
-      <thead className="bg-gray-50 dark:bg-gray-800">
+  <div className="hidden md:block w-full">
+    <table className="w-full border-collapse">
+      <thead>
         {table.getHeaderGroups().map(headerGroup => (
-          <tr key={headerGroup.id}>
+          <tr key={headerGroup.id} className="border-b-2 border-gray-300 dark:border-gray-600">
             {headerGroup.headers.map(header => (
               <th
                 key={header.id}
-                className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                className="px-6 py-5 lg:px-10 lg:py-6 xl:px-12 xl:py-7 text-left text-sm lg:text-base xl:text-lg font-semibold text-gray-600 dark:text-gray-300 uppercase tracking-wider"
               >
-                {header.isPlaceholder ? null : header.column.columnDef.header}
+                {header.isPlaceholder ? null : flexRender(header.column.columnDef.header, header.getContext())}
               </th>
             ))}
           </tr>
         ))}
       </thead>
-      <tbody className="bg-white dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700">
-        {table.getRowModel().rows.map(row => (
-          <tr key={row.id}>
+      <tbody>
+        {table.getRowModel().rows.map((row) => (
+          <tr
+            key={row.id}
+            className="border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-150"
+          >
             {row.getVisibleCells().map(cell => (
               <td
                 key={cell.id}
-                className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-300"
+                className="px-6 py-5 lg:px-10 lg:py-6 xl:px-12 xl:py-7 text-sm lg:text-base xl:text-lg text-gray-800 dark:text-gray-200"
               >
-                {cell.getValue()}
+                {flexRender(cell.column.columnDef.cell, cell.getContext())}
               </td>
             ))}
           </tr>

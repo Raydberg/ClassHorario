@@ -1,12 +1,11 @@
 import dayjs from "dayjs";
 import {
   Header,
-  TableSeptember,
-  TableNovember,
-  SubTitle,
+  Table,
   ThemeToggle,
 } from "../components";
 import { useEffect, useState } from "react";
+
 export const Horario = () => {
   const [currentDate, setCurrentDate] = useState(dayjs().format('HH:mm:ss'));
 
@@ -17,15 +16,12 @@ export const Horario = () => {
 
     return () => clearInterval(interval);
   }, []);
+
   return (
-    <div className="flex flex-col justify-center items-center dark:bg-gray-900 dark:text-white">
+    <div className="min-h-screen flex flex-col dark:bg-gray-900 dark:text-white">
       <Header title="Mi Horario" themeToggle={<ThemeToggle />} currentDate={currentDate} />
-      <div className="flex flex-col">
-        <SubTitle title="15 de Septiembre - 02 de Noviembre" />
-        <TableSeptember />
-        <hr className="dark:border-gray-700" />
-        <SubTitle title="10 de Noviembre - 28 de Diciembre" />
-        <TableNovember />
+      <div className="flex-1 flex flex-col items-center py-8 lg:py-12 xl:py-16 w-full">
+        <Table />
       </div>
     </div>
   );
