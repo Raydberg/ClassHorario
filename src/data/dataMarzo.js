@@ -24,9 +24,9 @@ export const dataMarzo = [
         "day": "Viernes",
         "course": "POO",
         "hour": "21:10-22:40",
-        "type": "Presencial",
-        "salon": "B209",
-        "lugar": "San Isidro Edificio B"
+        "type": "Virtual",
+        "salon": "Virtual",
+        "lugar": "Virtual"
     },
     {
         "id": generateId(),
@@ -35,6 +35,24 @@ export const dataMarzo = [
         "hour": "7:30-12:20",
         "type": "Presencial",
         "salon": "B206",
+        "lugar": "San Isidro Edificio B"
+    },
+    {
+        "id": generateId(),
+        "day": "Domingo",
+        "course": "Base de Datos",
+        "hour": "9:10-40",
+        "type": "Presencial",
+        "salon": "B306",
+        "lugar": "San Isidro Edificio B"
+    },
+    {
+        "id": generateId(),
+        "day": "Domingo",
+        "course": "Base de Datos",
+        "hour": "10:50-12:20",
+        "type": "Presencial",
+        "salon": "B306",
         "lugar": "San Isidro Edificio B"
     }
 ];
